@@ -209,11 +209,13 @@ header{
     position: absolute;
     top: 1237px;
     left: 29px;
+    width: 557px;
 }
 .intro-second-text3{
     position: absolute;
     top: 1405px;
     left: 29px;
+    width: 557px;
 }
 .intro-second-detail{
     position: absolute;
@@ -222,7 +224,7 @@ header{
 }
 .intro-second-detail img{
     width: 95%;
-  }
+}
 
 .intro-third-bg{
     width: 580px;
@@ -689,6 +691,22 @@ header{
     position: relative;
     height: 1851px;
 }
+.result1 {
+  position: relative;
+  top:0px;
+}
+.result2 {
+  position: relative;
+  top:400px;
+}
+.result3 {
+  position: relative;
+  top:800px;
+}
+.result4 {
+  position: relative;
+  top:1200px;
+}
 .result-title1{
     width: 555px;
     position: absolute;
@@ -792,263 +810,6 @@ header{
     overflow: hidden;
     transform: translateX(-130px);
 }
-.result-main2-grid{
-    width: 589px;
-    position: absolute;
-    left: 29px;
-    top: 638px;
-}
-.result-main2-text{
-    width: 161px;
-    position: absolute;
-    left: 417px;
-    top: 620px;
-}
-.result-main2-border{
-    width: 546px;
-    position: absolute;
-    left: 45px;
-    top: 689px;
-}
-.result-main2-before{
-    width: 120px;
-    position: absolute;
-    left: 199px;
-    top: 932px;
-    z-index: 10;
-}
-.result-main2-after{
-    width: 94px;
-    position: absolute;
-    left: 493px;
-    top: 938px;
-    z-index: 10;
-}
-.result-main2-arrow{
-    width: 14px;
-    position: absolute;
-    left: 310px;
-    top: 842px;
-}
-.result-main2-title{
-    width: 346px;
-    position: absolute;
-    left: 47px;
-    top: 663px;
-}
-.result-main2-pic1{
-    width: 260px;
-    position: absolute;
-    left: 45px;
-    top: 725px;
-}
-.result-main2-pic2{
-    width: 130px;
-    overflow: hidden;
-    position: absolute;
-    left: 175px;
-    top: 725px;
-}
-.result-main2-pic2 img{
-    width: 260px;
-    overflow: hidden;
-}
-.result-main2-pic3{
-    width: 130px;
-    overflow: hidden;
-    position: absolute;
-    left: 330px;
-    top: 725px;
-}
-.result-main2-pic3 img{
-    width: 260px;
-    overflow: hidden;
-    transform: translateX(-130px);
-}
-.result-main2-pic4{
-    width: 130px;
-    overflow: hidden;
-    position: absolute;
-    left: 460px;
-    top: 725px;
-}
-.result-main2-pic4 img{
-    width: 260px;
-    overflow: hidden;
-    transform: translateX(-130px);
-}
-.result-main3-grid{
-    width: 586px;
-    position: absolute;
-    left: 30px;
-    top: 1038px;
-}
-.result-main3-text{
-    width: 161px;
-    position: absolute;
-    left: 417px;
-    top: 1021px;
-}
-.result-main3-border{
-    width: 546px;
-    position: absolute;
-    left: 45px;
-    top: 1090px;
-}
-.result-main3-before{
-    width: 120px;
-    position: absolute;
-    left: 199px;
-    top: 1333px;
-    z-index: 10;
-}
-.result-main3-after{
-    width: 94px;
-    position: absolute;
-    left: 493px;
-    top: 1339px;
-    z-index: 10;
-}
-.result-main3-arrow{
-    width: 14px;
-    position: absolute;
-    left: 310px;
-    top: 1243px;
-}
-.result-main3-title{
-    width: 313px;
-    position: absolute;
-    left: 49px;
-    top: 1065px;
-}
-.result-main3-pic1{
-    width: 260px;
-    position: absolute;
-    left: 45px;
-    top: 1126px;
-}
-.result-main3-pic2{
-    width: 130px;
-    overflow: hidden;
-    position: absolute;
-    left: 175px;
-    top: 1126px;
-}
-.result-main3-pic2 img{
-    width: 260px;
-    overflow: hidden;
-}
-.result-main3-pic3{
-    width: 130px;
-    overflow: hidden;
-    position: absolute;
-    left: 330px;
-    top: 1126px;
-}
-.result-main3-pic3 img{
-    width: 260px;
-    overflow: hidden;
-    transform: translateX(-130px);
-}
-.result-main3-pic4{
-    width: 130px;
-    overflow: hidden;
-    position: absolute;
-    left: 460px;
-    top: 1126px;
-}
-.result-main3-pic4 img{
-    width: 260px;
-    overflow: hidden;
-    transform: translateX(-130px);
-}
-.result-main4-grid{
-    width: 586px;
-    position: absolute;
-    left: 29px;
-    top: 1440px;
-}
-.result-main4-text{
-    width: 161px;
-    position: absolute;
-    left: 417px;
-    top: 1422px;
-}
-.result-main4-border{
-    width: 546px;
-    position: absolute;
-    left: 45px;
-    top: 1491px;
-}
-.result-main4-before{
-    width: 120px;
-    position: absolute;
-    left: 199px;
-    top: 1733px;
-    z-index: 10;
-}
-.result-main4-after{
-    width: 94px;
-    position: absolute;
-    left: 493px;
-    top: 1740px;
-    z-index: 10;
-}
-.result-main4-arrow{
-    width: 14px;
-    position: absolute;
-    left: 310px;
-    top: 1644px;
-}
-.result-main4-title{
-    width: 314px;
-    position: absolute;
-    left: 49px;
-    top: 1466px;
-}
-.result-main4-pic1{
-    width: 260px;
-    position: absolute;
-    left: 45px;
-    top: 1527px;
-}
-.result-main4-pic2{
-    width: 130px;
-    overflow: hidden;
-    position: absolute;
-    left: 175px;
-    top: 1527px;
-}
-.result-main4-pic2 img{
-    width: 260px;
-    overflow: hidden;
-}
-.result-main4-pic3{
-    width: 130px;
-    overflow: hidden;
-    position: absolute;
-    left: 330px;
-    top: 1527px;
-}
-.result-main4-pic3 img{
-    width: 260px;
-    overflow: hidden;
-    transform: translateX(-130px);
-}
-.result-main4-pic4{
-    width: 130px;
-    overflow: hidden;
-    position: absolute;
-    left: 460px;
-    top: 1527px;
-}
-.result-main4-pic4 img{
-    width: 260px;
-    overflow: hidden;
-    transform: translateX(-130px);
-}
-
-
 /*cv*/
 .cvsection{
     height: 268px;
@@ -1075,39 +836,14 @@ header{
     top: 243px;
 }
 
- /*footer*/
-  footer {
-    text-align: left;
-    margin: 2em 0 0 0;
-    color: white;
-    height: 100px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: #67c2c5;
-  }
-
-table th, table td {
-    font-size: 11.2px;
-    color: #333;
-    padding: 1em;
-    border: #DDD 1px solid;
-    line-height: 1.5em;
-    font-weight: normal;
+/*footer*/
+footer {
+  text-align: left;
+  margin: 2em 0 0 0;
+  color: white;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #67c2c5;
 }
-table th{
-    border: #DDD 1px solid; 
-}
-table td{
-    border: #DDD 1px solid;
-}
-td img{
-    width:80%;
-}
-table {
-    margin-bottom: 1em;
-    border-collapse: collapse;
-    border-spacing: 0;
-    
-}
-table th{ background: #EEE; }
