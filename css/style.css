@@ -47,7 +47,7 @@ header{
     position: relative;
     background-position:0px -40px;
     width: 640px;
-    height: 715px;
+    height: 100%;
 }
 
 .header-main{
@@ -103,6 +103,7 @@ header{
 }
 .cv-text{
     width: 324px;
+    top: 315px;
     position: relative;
     left: 279px;
 }

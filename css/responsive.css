@@ -5,7 +5,7 @@
   }
 
   header {
-    height: 500px;
+    height: 428px;
   }
 
   .header-title .span::after {
@@ -24,21 +24,22 @@
     position: relative;
     background-position: 0px -40px;
     width: 100%;
-    height: 500px;
+    /* height:  500px; */
   }
 
   .header-main {
-    width: 48.03125%;
+    width: calc(301 / 640 * 100vw);
     /* 301px */
     position: absolute;
   }
 
   .name {
     position: absolute;
-    top: 52.421875%;/*335.5px*/
+    top: calc(335.5 / 767 * 100vh);
     left: 62.2265625%;
     /*398.5px*/
-    color: black
+    color: black;
+    width: 11.875%; /*76*/
   }
 
   .header-part {
@@ -46,14 +47,14 @@
     position: absolute;
     left: 3.125%;
     /*20px*/
-    top: 504px;
+    top: 300px;
     width: 61%;
     /* 393px */
   }
 
   .header-fhoto {
     position: absolute;
-    top: 532px;
+    top: 310px;
     left: 55.9375%;
     /*358px*/
     width: 48.125%;
@@ -74,15 +75,15 @@
     width: 59.0625%;
     /* 378px */
     position: absolute;
-    top: 32px; /*32px*/
+    top: 15px; /*32px*/
     left: 4.375%;/*28px*/
   }
 
   .cv {
     width: 98%;
     /*630*/
-    top: 80px;
-    left: -5%; /*-20px*/
+    top: 40px;
+    left: -12px;
     position: absolute;
     z-index: 10;
   }
@@ -90,7 +91,7 @@
   .cv_a {
     width: 90%;
     /* 577*/
-    top: 258px;
+    top: calc(258 /  640 * 100vh);
     left: 4.53125%;/*29px*/
     position: absolute;
 
@@ -101,7 +102,7 @@
     /*324px*/
     top: 315px;
     position: relative;
-    left: 279px;
+    left: 43.59375%;/*279px*/
   }
 
   .intro-first-grid {
@@ -117,7 +118,7 @@
     width: 83.75%;
     /*536px*/
     top: 388px;
-    left: 69px;
+    left: 10.78125%;/*69px*/;
     z-index: 5;
   }
 
@@ -152,7 +153,7 @@
     width: 62.18%;
     /*398px*/
     position: absolute;
-    left: 48.4375%;/*31px*/
+    left: 4.84375%;/*31px*/
     top: 482px;
   }
 
@@ -356,7 +357,7 @@
   }
 
   .intro-forth-title5 {
-    width: 82.3913%;/*379px*/
+    width: 59.21875%;/*379px*/
     position: absolute;
     top: 2620px;
     left: 31.09375%;/*199px*/
@@ -377,10 +378,10 @@
   }
 
   .intro-forth-title8 {
-    width: 356px;
+    width: 55.625%;/*356px*/;
     position: absolute;
     top: 2861px;
-    left: 227px;
+    left: 35.46875%;/*227px*/;
   }
 
   .intro-fifth-grid {
@@ -391,17 +392,17 @@
   }
 
   .intro-fifth-title {
-    width: 476px;
+    width: 74.375%;/*476px*/;
     position: absolute;
     top: 3002px;
-    left: 82px;
+    left: 12.8125%;/*82px*/;
   }
 
   .intro-fifth-text1 {
-    width: 451px;
+    width: 70.46875%;/*451px*/;
     position: absolute;
     top: 3058px;
-    left: 95px;
+    left: 14.84375%;/*95px*/;
   }
 
   .intro-fifth-text2 {
@@ -1240,6 +1241,7 @@
     justify-content: space-evenly;
     align-items: center;
     background-color: #67c2c5;
+    font-size: 0.8em;
   }
 
 
