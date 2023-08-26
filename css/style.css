@@ -26,6 +26,7 @@ body{
 .container{
     width:640px;
     margin:auto;
+    padding-left: 10px;
 }
 
 header{
@@ -210,6 +211,11 @@ header{
     top: 1237px;
     left: 29px;
     width: 557px;
+}
+.intro-second-text2 img{
+    width: 105%;
+    position: absolute;
+    left: -7px;
 }
 .intro-second-text3{
     position: absolute;
@@ -422,6 +428,14 @@ header{
     position: absolute;
     top: 212px;
     left: 186px;
+}
+
+.notify-yellow3{
+    width: 73px;
+    position: absolute;
+    top: 133px;
+    left: 108px;
+    width: 106px;
 }
 
 .notify-title1{
