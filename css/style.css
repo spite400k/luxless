@@ -200,6 +200,12 @@ header{
     left: 29px;
     width: 584px;
 }
+.intro-second-cross{
+    position: absolute;
+    top: 1007px;
+    left: 311px;
+    width: 19px;
+}
 .intro-second-text1{
     position: absolute;
     top: 1038px;
@@ -402,8 +408,9 @@ header{
 /*notify*/
 .notify{
     background-color: #f0dec8;
-    height: 1654px;
+    height: 1692px;
     position: relative;
+    width: 640px;
 }
 .notify-bg{
     top: 1106px;

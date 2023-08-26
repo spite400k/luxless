@@ -208,7 +208,12 @@
     left: calc(29 / 640 * 100vw);/*29px*/
     width: calc(584 / 640 * 100vw);/*584px*/
   }
-
+.intro-second-cross{
+    position: absolute;
+    top: calc(1007.5 / 640 * 100vw);/*1007px;*/
+    left: calc(311 / 640 * 100vw);/*311px;*/
+    width: calc(19 / 640 * 100vw);/*19px;*/
+}
   .intro-second-text1 {
     position: absolute;
     top: calc(1038 / 640 * 100vw);/*1038px;*/
@@ -343,7 +348,7 @@
   .intro-forth-title4 {
     width: calc(108 / 640 * 100vw);/*108px*/
     position: absolute;
-    top: calc(2600 / 640 * 100vw);/*2600px;*/
+    top: calc(2587 / 640 * 100vw);/*2600px;*/
     left: calc(475 / 640 * 100vw);/*475px*/
   }
 
@@ -435,8 +440,9 @@
   /*notify*/
   .notify {
     background-color: #f0dec8;
-    height: calc(1654 / 640 * 100vw);/*1654px;*/
+    height: calc(1692 / 640 * 100vw);/*1654px;*/
     position: relative;
+    width: calc(640 / 640 * 100vw);
   }
 
   .notify-bg {
@@ -580,7 +586,7 @@
   .notify-sub1-border {
     width: calc(389 / 640 * 100vw);/*389px*/
     position: absolute;
-    top: calc(73 / 640 * 100vw);/*680px;*/
+    top: calc(665 / 640 * 100vw);/*680px;*/
     left: calc(211 / 640 * 100vw);/*211px*/
   }
 
@@ -837,7 +843,7 @@
     width: calc(546 / 640 * 100vw);/*546px*/;
     position: absolute;
     left: calc(45 / 640 * 100vw);/*45px*/;
-    top: calc(288 / 640 * 100vw);/*288px;*/
+    top: calc(275 / 640 * 100vw);/*288px;*/
   }
 
   .result-main1-before {
