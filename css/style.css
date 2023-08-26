@@ -3,6 +3,10 @@
 body{
     font-family: 'Noto Sans JP', sans-serif;
 }
+.a{
+    color: blue;
+    text-decoration: underline;
+}
 .flex{
     display: flex;
     align-items: center;
@@ -15,6 +19,9 @@ body{
 }
 .bg-green{
     background-color: #67c2c5;
+}
+.color-red{
+    color:red;
 }
 .container{
     width:640px;
@@ -81,10 +88,18 @@ header{
     left: 28px;
 }
 .cv{
-    width: 636px;
+    width: 630px;
     top: 80px;
     left: -20px;
     position: absolute;
+    z-index: 10;    
+}
+.cv_a{
+    width: 577px;
+    top: 258px;
+    left: 29px;
+    position: absolute;
+
 }
 .cv-text{
     width: 324px;
@@ -239,7 +254,15 @@ header{
     position: absolute;
     top: 2270px;
     left: 46px;
+
 }
+.cv2{
+    width: 340px;
+    top: 2270px;
+    left: 47px;
+    position: absolute;
+}
+
 .cv-text2{
     width: 291px;
     position: absolute;
@@ -264,6 +287,7 @@ header{
     position: absolute;
     top: 2465px;
     left: 85px;
+    z-index: 100;
 }
 .intro-forth-title-border{
     width: 512px;
@@ -348,6 +372,13 @@ header{
     top: 3393px;
     left: -20px;
     position: absolute;
+    z-index: 10;
+}
+.cv_a3{
+    width: 581px;
+    top: 3572px;
+    left: 31px;
+    position: absolute;
 }
 .cv-text3{
     width: 509px;
@@ -406,10 +437,19 @@ header{
     left: 458px;
     z-index: 5;
 }
-.notify-title3{
-    width: 552px;
+
+.notify-title8{
+    z-index: 5;
+    width: 214px;
     position: absolute;
     top: 271px;
+    left: 42px;
+}
+.notify-title9{
+    z-index: 5;
+    width: 553px;
+    position: absolute;
+    top: 302px;
     left: 42px;
 }
 .notify-title4{
@@ -459,6 +499,7 @@ header{
     position: absolute;
     top: 675px;
     left: 29px;
+    z-index: 100;
 }
 .notify-sub1-text3{
     width: 590px;
@@ -638,368 +679,373 @@ header{
     left: 30px;
     top: 589px;
  }
- /*footer*/
-.footer{
+ /*result*/
+.result{
     position: relative;
     height: 1851px;
 }
-.footer-title1{
+.result-title1{
     width: 555px;
     position: absolute;
     left: 39px;
     top: 35px;
 }
-.footer-title2{
+.result-title2{
     width: 577px;
     position: absolute;
     left: 32px;
     top: 96px;
 }
-.footer-title3{
+.result-title3{
     width: 512px;
     position: absolute;
     left: 61px;
     top: 174px;
 }
-.footer-main1-grid{
+.result-main1-grid{
     width: 586px;
     position: absolute;
     left: 29px;
     top: 237px;
 }
-.footer-main1-text{
+.result-main1-text{
     width: 161px;
     position: absolute;
     left: 417px;
     top: 219px;
 }
-.footer-main1-border{
+.result-main1-border{
     width: 546px;
     position: absolute;
     left: 45px;
     top: 288px;
 }
-.footer-main1-before{
+.result-main1-before{
     width: 120px;
     position: absolute;
     left: 198px;
     top: 530px;
     z-index: 10;
 }
-.footer-main1-after{
+.result-main1-after{
     width: 94px;
     position: absolute;
     left: 493px;
     top: 537px;
     z-index: 10;
 }
-.footer-main1-arrow{
+.result-main1-arrow{
     width: 14px;
     position: absolute;
     left: 310px;
     top: 441px;
 }
-.footer-main1-title{
+.result-main1-title{
     width: 346px;
     position: absolute;
     left: 48px;
     top: 262px;
 }
-.footer-main1-pic1{
+.result-main1-pic1{
     width: 260px;
     position: absolute;
     left: 45px;
     top: 324px;
 }
-.footer-main1-pic2{
+.result-main1-pic2{
     width: 130px;
     overflow: hidden;
     position: absolute;
     left: 175px;
     top: 324px;
 }
-.footer-main1-pic2 img{
+.result-main1-pic2 img{
     width: 260px;
     overflow: hidden;
 }
-.footer-main1-pic3{
+.result-main1-pic3{
     width: 130px;
     overflow: hidden;
     position: absolute;
     left: 330px;
     top: 324px;
 }
-.footer-main1-pic3 img{
+.result-main1-pic3 img{
     width: 260px;
     overflow: hidden;
     transform: translateX(-130px);
 }
-.footer-main1-pic4{
+.result-main1-pic4{
     width: 130px;
     overflow: hidden;
     position: absolute;
     left: 460px;
     top: 324px;
 }
-.footer-main1-pic4 img{
+.result-main1-pic4 img{
     width: 260px;
     overflow: hidden;
     transform: translateX(-130px);
 }
-.footer-main2-grid{
+.result-main2-grid{
     width: 589px;
     position: absolute;
     left: 29px;
     top: 638px;
 }
-.footer-main2-text{
+.result-main2-text{
     width: 161px;
     position: absolute;
     left: 417px;
     top: 620px;
 }
-.footer-main2-border{
+.result-main2-border{
     width: 546px;
     position: absolute;
     left: 45px;
     top: 689px;
 }
-.footer-main2-before{
+.result-main2-before{
     width: 120px;
     position: absolute;
     left: 199px;
     top: 932px;
     z-index: 10;
 }
-.footer-main2-after{
+.result-main2-after{
     width: 94px;
     position: absolute;
     left: 493px;
     top: 938px;
     z-index: 10;
 }
-.footer-main2-arrow{
+.result-main2-arrow{
     width: 14px;
     position: absolute;
     left: 310px;
     top: 842px;
 }
-.footer-main2-title{
+.result-main2-title{
     width: 346px;
     position: absolute;
     left: 47px;
     top: 663px;
 }
-.footer-main2-pic1{
+.result-main2-pic1{
     width: 260px;
     position: absolute;
     left: 45px;
     top: 725px;
 }
-.footer-main2-pic2{
+.result-main2-pic2{
     width: 130px;
     overflow: hidden;
     position: absolute;
     left: 175px;
     top: 725px;
 }
-.footer-main2-pic2 img{
+.result-main2-pic2 img{
     width: 260px;
     overflow: hidden;
 }
-.footer-main2-pic3{
+.result-main2-pic3{
     width: 130px;
     overflow: hidden;
     position: absolute;
     left: 330px;
     top: 725px;
 }
-.footer-main2-pic3 img{
+.result-main2-pic3 img{
     width: 260px;
     overflow: hidden;
     transform: translateX(-130px);
 }
-.footer-main2-pic4{
+.result-main2-pic4{
     width: 130px;
     overflow: hidden;
     position: absolute;
     left: 460px;
     top: 725px;
 }
-.footer-main2-pic4 img{
+.result-main2-pic4 img{
     width: 260px;
     overflow: hidden;
     transform: translateX(-130px);
 }
-.footer-main3-grid{
+.result-main3-grid{
     width: 586px;
     position: absolute;
     left: 30px;
     top: 1038px;
 }
-.footer-main3-text{
+.result-main3-text{
     width: 161px;
     position: absolute;
     left: 417px;
     top: 1021px;
 }
-.footer-main3-border{
+.result-main3-border{
     width: 546px;
     position: absolute;
     left: 45px;
     top: 1090px;
 }
-.footer-main3-before{
+.result-main3-before{
     width: 120px;
     position: absolute;
     left: 199px;
     top: 1333px;
     z-index: 10;
 }
-.footer-main3-after{
+.result-main3-after{
     width: 94px;
     position: absolute;
     left: 493px;
     top: 1339px;
     z-index: 10;
 }
-.footer-main3-arrow{
+.result-main3-arrow{
     width: 14px;
     position: absolute;
     left: 310px;
     top: 1243px;
 }
-.footer-main3-title{
+.result-main3-title{
     width: 313px;
     position: absolute;
     left: 49px;
     top: 1065px;
 }
-.footer-main3-pic1{
+.result-main3-pic1{
     width: 260px;
     position: absolute;
     left: 45px;
     top: 1126px;
 }
-.footer-main3-pic2{
+.result-main3-pic2{
     width: 130px;
     overflow: hidden;
     position: absolute;
     left: 175px;
     top: 1126px;
 }
-.footer-main3-pic2 img{
+.result-main3-pic2 img{
     width: 260px;
     overflow: hidden;
 }
-.footer-main3-pic3{
+.result-main3-pic3{
     width: 130px;
     overflow: hidden;
     position: absolute;
     left: 330px;
     top: 1126px;
 }
-.footer-main3-pic3 img{
+.result-main3-pic3 img{
     width: 260px;
     overflow: hidden;
     transform: translateX(-130px);
 }
-.footer-main3-pic4{
+.result-main3-pic4{
     width: 130px;
     overflow: hidden;
     position: absolute;
     left: 460px;
     top: 1126px;
 }
-.footer-main3-pic4 img{
+.result-main3-pic4 img{
     width: 260px;
     overflow: hidden;
     transform: translateX(-130px);
 }
-.footer-main4-grid{
+.result-main4-grid{
     width: 586px;
     position: absolute;
     left: 29px;
     top: 1440px;
 }
-.footer-main4-text{
+.result-main4-text{
     width: 161px;
     position: absolute;
     left: 417px;
     top: 1422px;
 }
-.footer-main4-border{
+.result-main4-border{
     width: 546px;
     position: absolute;
     left: 45px;
     top: 1491px;
 }
-.footer-main4-before{
+.result-main4-before{
     width: 120px;
     position: absolute;
     left: 199px;
     top: 1733px;
     z-index: 10;
 }
-.footer-main4-after{
+.result-main4-after{
     width: 94px;
     position: absolute;
     left: 493px;
     top: 1740px;
     z-index: 10;
 }
-.footer-main4-arrow{
+.result-main4-arrow{
     width: 14px;
     position: absolute;
     left: 310px;
     top: 1644px;
 }
-.footer-main4-title{
+.result-main4-title{
     width: 314px;
     position: absolute;
     left: 49px;
     top: 1466px;
 }
-.footer-main4-pic1{
+.result-main4-pic1{
     width: 260px;
     position: absolute;
     left: 45px;
     top: 1527px;
 }
-.footer-main4-pic2{
+.result-main4-pic2{
     width: 130px;
     overflow: hidden;
     position: absolute;
     left: 175px;
     top: 1527px;
 }
-.footer-main4-pic2 img{
+.result-main4-pic2 img{
     width: 260px;
     overflow: hidden;
 }
-.footer-main4-pic3{
+.result-main4-pic3{
     width: 130px;
     overflow: hidden;
     position: absolute;
     left: 330px;
     top: 1527px;
 }
-.footer-main4-pic3 img{
+.result-main4-pic3 img{
     width: 260px;
     overflow: hidden;
     transform: translateX(-130px);
 }
-.footer-main4-pic4{
+.result-main4-pic4{
     width: 130px;
     overflow: hidden;
     position: absolute;
     left: 460px;
     top: 1527px;
 }
-.footer-main4-pic4 img{
+.result-main4-pic4 img{
     width: 260px;
     overflow: hidden;
     transform: translateX(-130px);
+}
+/*footer*/
+footer{
+    height: 100%;
+    background-color: #67c2c5;
 }
 /*cv*/
 .cvsection{
@@ -1012,6 +1058,13 @@ header{
     position: absolute;
     left: -20px;
     top: 2px;
+    z-index: 10;
+}
+.cv_a4{
+    width: 581px;
+    top: 181px;
+    left: 31px;
+    position: absolute;
 }
 .cv-text4{
     width: 510px;
@@ -1019,3 +1072,97 @@ header{
     left: 92px;
     top: 243px;
 }
+/*footer*/
+footer {
+    text-align: left;
+    margin: 2em 0 0 0;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+footer a{
+    margin: 1em;
+
+}
+table th, table td {
+    font-size: 11.2px;
+    color: #333;
+    padding: 1em;
+    border: #DDD 1px solid;
+    line-height: 1.5em;
+    font-weight: normal;
+}
+table th{
+    border: #DDD 1px solid; 
+}
+table td{
+    border: #DDD 1px solid;
+}
+td img{
+    width:80%;
+}
+.footer-low h2    {
+    padding: 0.3em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    font-size: 14.4px;
+}
+.footer-low h3, h4 {
+    padding: 0.2em;
+    margin-bottom: 0.3em;
+    font-weight: bold;
+    font-size: 12.8px;
+}
+.footer-low-text{
+    padding-bottom: 0.2em;
+    margin-bottom: 0.3em;
+}
+.footer-company-detail h2    {
+    padding: 0.3em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    font-size: 14.4px;
+}
+.footer-company-detail h3, h4 {
+    padding: 0.2em;
+    margin-bottom: 0.3em;
+    font-weight: bold;
+    font-size: 12.8px;
+}
+.footer-privacy{
+    padding-bottom: 0.2em;
+    margin-bottom: 0.3em;
+}
+.footer-company-detail h2    {
+    padding: 0.3em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    font-size: 14.4px;
+}
+.footer-privacy  p {
+    margin-bottom: 1em;
+    line-height: 1.5em;
+    font-size: 12px;
+}
+.footer-privacy h2    {
+    padding: 0.3em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    font-size: 14.4px;
+}
+.footer-privacy h3, h4 {
+    padding: 0.2em;
+    margin-bottom: 0.3em;
+    font-weight: bold;
+    font-size: 12.8px;
+}
+table {
+    margin-bottom: 1em;
+    border-collapse: collapse;
+    border-spacing: 0;
+    
+}
+table th{ background: #EEE; }
